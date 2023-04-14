@@ -45,23 +45,23 @@ import {
 let linksData = [
   {
     icon: Blog,
-    name: "博客",
-    link: "https://blog.imsyy.top/",
+    name: "文件",
+    link: "http://mr0hy.top:16666/",
   },
   {
-    icon: Cloud,
-    name: "网盘",
-    link: "https://pan.imsyy.top/",
+    icon: chatgpt,
+    name: "Chat",
+    link: "https://chat.linhongyu.cn/",
   },
   {
     icon: CompactDisc,
-    name: "音乐",
-    link: "https://music.imsyy.top/",
+    name: "画图",
+    link: "https://draw.linhongyu.cn/",
   },
   {
     icon: Compass,
     name: "起始页",
-    link: "https://nav.imsyy.top/",
+    link: "https://nav.linhongyu.cn/",
   },
   {
     icon: Book,
