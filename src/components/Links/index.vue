@@ -50,18 +50,18 @@ let linksData = [
   },
   {
     icon: Cloud,
-    name: "网盘",
-    link: "https://pan.imsyy.top/",
+    name: "Chat",
+    link: "https://chat.linhongyu.cn/",
   },
   {
     icon: CompactDisc,
-    name: "音乐",
-    link: "https://music.imsyy.top/",
+    name: "画图",
+    link: "https://draw.linhongyu.cn/",
   },
   {
     icon: Compass,
     name: "起始页",
-    link: "https://nav.imsyy.top/",
+    link: "https://nav.linhongyu.cn/",
   },
   {
     icon: Book,
