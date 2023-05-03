@@ -70,8 +70,8 @@ let linksData = [
   },
   {
     icon: Fire,
-    name: "今日热榜",
-    link: "https://hot.imsyy.top/",
+    name: "qbittorrent",
+    link: "http://mr0hy.top:17777/",
   },
 ];
 
