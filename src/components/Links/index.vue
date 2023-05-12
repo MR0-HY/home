@@ -51,7 +51,7 @@ let linksData = [
   {
     icon: Cloud,
     name: "Chat",
-    link: "https://chat.linhongyu.cn/",
+    link: "https://chat.linhongyu.icu/",
   },
   {
     icon: CompactDisc,
