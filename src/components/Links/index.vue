@@ -46,7 +46,7 @@ let linksData = [
   {
     icon: Blog,
     name: "文件",
-    link: "https://pan.linhongyu.cn/",
+    link: "https://mr0hy.top:16666/",
   },
   {
     icon: Cloud,
