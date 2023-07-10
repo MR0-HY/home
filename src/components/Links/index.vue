@@ -50,8 +50,8 @@ let linksData = [
   },
   {
     icon: Cloud,
-    name: "Chat",
-    link: "https://chat.linhongyu.icu/",
+    name: "网盘",
+    link: "https://mr0hy.top:5214/",
   },
   {
     icon: CompactDisc,
