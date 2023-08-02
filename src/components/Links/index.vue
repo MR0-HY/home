@@ -70,8 +70,8 @@ let linksData = [
   },
   {
     icon: Fire,
-    name: "qbittorrent",
-    link: "http://mr0hy.top:17777/",
+    name: "ChatGPT",
+    link: "https://chat.linhongyu.icu/",
   },
 ];
 
