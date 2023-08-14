@@ -55,8 +55,8 @@ let linksData = [
   },
   {
     icon: CompactDisc,
-    name: "画图",
-    link: "https://draw.linhongyu.cn/",
+    name: "影视",
+    link: "https://mr0hy.top:8888/",
   },
   {
     icon: Compass,
