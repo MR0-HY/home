@@ -66,7 +66,7 @@ let linksData = [
   {
     icon: Book,
     name: "Link",
-    link: "https://0hy.co/admin",
+    link: "http://mr0hy.top:3020",
   },
   {
     icon: Fire,
