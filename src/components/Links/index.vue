@@ -46,7 +46,7 @@ let linksData = [
   {
     icon: Blog,
     name: "文件",
-    link: "https://lhy.icu:16666/",
+    link: "https://pan.lhy.icu:88/",
   },
   {
     icon: Cloud,
@@ -66,7 +66,7 @@ let linksData = [
   {
     icon: Book,
     name: "Link",
-    link: "http://lhy.icu:3020",
+    link: "http://link.lhy.icu:88",
   },
   {
     icon: Fire,
