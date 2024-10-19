@@ -51,7 +51,7 @@ let linksData = [
   {
     icon: Cloud,
     name: "网盘",
-    link: "https://lhy.icu:5214/",
+    link: "https://cloud.lhy.icu:88/",
   },
   {
     icon: CompactDisc,
@@ -66,7 +66,7 @@ let linksData = [
   {
     icon: Book,
     name: "Link",
-    link: "http://link.lhy.icu:88",
+    link: "https://link.lhy.icu:88",
   },
   {
     icon: Fire,
