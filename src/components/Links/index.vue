@@ -46,12 +46,12 @@ let linksData = [
   {
     icon: Blog,
     name: "文件",
-    link: "https://pan.cflhy.icu/",
+    link: "https://pan.lhy.icu/",
   },
   {
     icon: Cloud,
     name: "网盘",
-    link: "https://cloud.cflhy.icu/",
+    link: "https://cloud.lhy.icu/",
   },
   {
     icon: CompactDisc,
@@ -66,7 +66,7 @@ let linksData = [
   {
     icon: Book,
     name: "Link",
-    link: "https://www.cflhy.icu/",
+    link: "https://www.lhy.icu/",
   },
   {
     icon: Fire,
