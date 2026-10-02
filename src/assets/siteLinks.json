@@ -10,14 +10,14 @@
     "link": "https://cloud.linhy.net:88/"
   },
   {
-    "icon": "CompactDisc",
-    "name": "影视",
-    "link": "https://mr0hy.top:8888/"
+    "icon": "BoxOpen",
+    "name": "文件快递",
+    "link": "https://fcb.linhy.net:88/"
   },
   {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.linhongyu.cn/"
+    "icon": "Images",
+    "name": "图片压缩",
+    "link": "https://squoosh.linhy.net:88/"
   },
   {
     "icon": "Book",
@@ -25,8 +25,8 @@
     "link": "https://www.linhy.net:88/"
   },
   {
-    "icon": "Fire",
-    "name": "ChatGPT",
-    "link": "https://chat.linhongyu.icu/"
+    "icon": "Link",
+    "name": "短链接",
+    "link": "https://s.linhy.net/admin"
   }
 ]
