@@ -1,8 +1,10 @@
 <template>
   <footer>
     <div class="power" v-show="!store.playerState">
-      <span class="copyright">&copy; 2022–{{ fullYear }}</span>
-      <span class="owner">Rizon_Lin</span>
+      <span
+        >Copyright&nbsp;&copy;&nbsp;2022–{{ fullYear }}
+        <a href="https://imsyy.top">Rizon_Lin</a>
+      </span>
     </div>
     <div class="lrc" v-show="store.playerState">
       <music-one theme="filled" size="18" fill="#efefef" />
@@ -39,23 +41,14 @@ footer {
   @media (max-width: 720px) {
     font-size: 0.85rem;
   }
+  @media (max-width: 480px) {
+    .hidden {
+      display: none;
+    }
+  }
   .power {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    height: 100%;
-    padding: 0 16px;
-    font-size: 13px;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
-    color: rgb(255 255 255 / 70%);
     animation: fade;
     -webkit-animation: fade 0.3s;
-    .owner {
-      color: rgb(255 255 255 / 90%);
-      font-weight: 500;
-    }
   }
   .lrc {
     padding: 0 20px;
