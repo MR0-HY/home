@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "Blog",
+    "name": "文件",
+    "link": "https://pan.linhy.net:88/"
+  },
+  {
+    "icon": "Cloud",
+    "name": "网盘",
+    "link": "https://cloud.linhy.net:88/"
+  },
+  {
+    "icon": "CompactDisc",
+    "name": "影视",
+    "link": "https://mr0hy.top:8888/"
+  },
+  {
+    "icon": "Compass",
+    "name": "起始页",
+    "link": "https://nav.linhongyu.cn/"
+  },
+  {
+    "icon": "Book",
+    "name": "Link",
+    "link": "https://www.linhy.net:88/"
+  },
+  {
+    "icon": "Fire",
+    "name": "ChatGPT",
+    "link": "https://chat.linhongyu.icu/"
+  }
+]

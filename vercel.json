@@ -1,6 +1,10 @@
 {
   "version": 2,
-  "routes": [{
+  "installCommand": "npx --yes pnpm@9.15.9 install --frozen-lockfile",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "routes": [
+    {
       "handle": "filesystem"
     },
     {
