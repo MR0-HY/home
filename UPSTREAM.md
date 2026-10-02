@@ -46,16 +46,24 @@ size only on narrow phones to fit beside the logo. The desktop heading and font
 asset are preserved. The former footer style is retained rather than replaced
 with the upstream default footer.
 
-The existing music API currently fails to connect from the tested network. Its
-URL and playlist have not been changed. Playlist HTTP/format failures and rejected
-requests are caught, display a failure notice, and do not interrupt the rest of
-the page. A successful site build is not evidence that the external music service
-or audio playback works.
+The original music API and the upstream example's backup both failed to connect
+on 2026-10-02. `VITE_SONG_API` now uses
+`https://meting-api-omega.vercel.app/api`, the demo linked by
+[the Meting-API project recommended upstream](https://github.com/xizeyoupan/Meting-API).
+The original NetEase playlist `8870656171` is unchanged. This is a third-party
+endpoint, not a self-hosted service; availability depends on its operator and
+the visitor's network. Playlist HTTP/format failures remain caught.
+
+Real Chromium playback, pause/resume and lyrics were verified. The playlist
+currently contains one song, Letting Go (Live), and NetEase supplies a 45-second
+preview. This repair does not provide full-track access beyond the source's
+availability. Future interface changes must be checked with actual audio
+progress, not just a successful playlist response or build.
 
 ## Validation
 
 Production build passed with the upstream lockfile unchanged. Local Chromium
 checks passed at desktop 1440×900 and phone 390×844: all six service links,
 all six social links, custom wallpaper/font, copyright text, mobile service menu,
-and footer blur setting persistence. No uncaught page errors remained; the
-external music request failure was recorded separately.
+and footer blur setting persistence. No uncaught page errors remained. The
+subsequent music endpoint repair also passed real playback and lyric checks.
