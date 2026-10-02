@@ -46,12 +46,12 @@ let linksData = [
   {
     icon: Blog,
     name: "文件",
-    link: "https://pan.linhy.net/",
+    link: "https://pan.linhy.net:88/",
   },
   {
     icon: Cloud,
     name: "网盘",
-    link: "https://cloud.linhy.net/",
+    link: "https://cloud.linhy.net:88/",
   },
   {
     icon: CompactDisc,
@@ -66,7 +66,7 @@ let linksData = [
   {
     icon: Book,
     name: "Link",
-    link: "https://www.linhy.net/",
+    link: "https://www.linhy.net:88/",
   },
   {
     icon: Fire,
