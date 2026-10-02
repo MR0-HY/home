@@ -1,23 +1,8 @@
 <template>
   <footer>
     <div class="power" v-show="!store.playerState">
-      <span
-        >Copyright&nbsp;&copy;&nbsp;{{ fullYear }}
-        <a href="https://imsyy.top">Rizon_Lin</a>
-      </span>
-      <!-- 以下信息请不要修改哦 -->
-      <span class="hidden"
-        >&nbsp;&amp;&nbsp;Made&nbsp;by&nbsp;<a
-          :href="config.github"
-          target="_blank"
-        >
-          {{ config.author }}
-        </a></span
-      >&nbsp;&amp;
-      <!-- 站点备案 -->
-      <a href="https://beian.miit.gov.cn" target="_blank"
-        > </a
-      >
+      <span class="copyright">&copy; 2022–{{ fullYear }}</span>
+      <span class="owner">Rizon_Lin</span>
     </div>
     <div class="lrc" v-show="store.playerState">
       <music-one theme="filled" size="18" fill="#efefef" />
@@ -32,10 +17,9 @@
 <script setup>
 import { MusicOne } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
-import config from "@/../package.json";
 const store = mainStore();
 
-let fullYear = new Date().getFullYear();
+const fullYear = new Date().getFullYear();
 </script>
 
 <style lang="scss" scoped>
@@ -55,14 +39,23 @@ footer {
   @media (max-width: 720px) {
     font-size: 0.85rem;
   }
-  @media (max-width: 480px) {
-    .hidden {
-      display: none;
-    }
-  }
   .power {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 100%;
+    padding: 0 16px;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    color: rgb(255 255 255 / 70%);
     animation: fade;
     -webkit-animation: fade 0.3s;
+    .owner {
+      color: rgb(255 255 255 / 90%);
+      font-weight: 500;
+    }
   }
   .lrc {
     padding: 0 20px;
